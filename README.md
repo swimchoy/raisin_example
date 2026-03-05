@@ -50,6 +50,7 @@ Where `RAISIN_MASTER_PATH` points to the directory containing `install/` folder 
 | `example_actuator_status` | Motor fault status |
 | `example_odometry` | Current position |
 | `example_pointcloud` | Map/LiDAR data |
+| `example_ffmpeg_camera` | Camera stream (`FfmpegPacket`) subscribe (must be decoded for visualization) |
 
 ### Control Examples
 
@@ -67,6 +68,7 @@ Where `RAISIN_MASTER_PATH` points to the directory containing `install/` folder 
 ./example_actuator_status <robot_id>
 ./example_odometry <robot_id>
 ./example_pointcloud <robot_id>
+./example_ffmpeg_camera <robot_id>
 ./example_joy_control <robot_id>
 ```
 

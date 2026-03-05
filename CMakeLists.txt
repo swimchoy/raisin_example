@@ -147,6 +147,7 @@ add_simple_example(example_battery)
 add_simple_example(example_actuator_status)
 add_simple_example(example_odometry)
 add_simple_example(example_pointcloud)
+add_simple_example(example_ffmpeg_camera)
 
 # Control example
 add_simple_example(example_joy_control)
@@ -161,6 +162,7 @@ add_simple_example(example_connect)
 install(TARGETS
     example_robot_state example_battery example_actuator_status
     example_odometry example_pointcloud example_joy_control
+    example_ffmpeg_camera
     example_connect
     RUNTIME DESTINATION bin)
 install(DIRECTORY include/ DESTINATION include)
@@ -178,6 +180,7 @@ message(STATUS "  SDK Path:     ${RAISIN_SDK_PATH}")
 message(STATUS "")
 message(STATUS "  Examples:     example_robot_state")
 message(STATUS "                example_battery")
+message(STATUS "                example_ffmpeg_camera")
 message(STATUS "                example_actuator_status")
 message(STATUS "                example_odometry")
 message(STATUS "                example_pointcloud")
